@@ -75,7 +75,7 @@ returns false.
 ```
 $stepHumanReadableName
 $stepMachineName
-$messageToSend = array(new TextMessage('Hi there!'));
+$messageToSend = array(new TextMessage('You ugly!'));
 
 // Set step welcoming user to conversation.
 $welcomeStep = new BotWorkflowStep($humanReadableName, $stepMachineName, $messageToSend);
