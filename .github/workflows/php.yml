@@ -35,8 +35,9 @@ jobs:
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
-    # - name: Run test suite
-    #   run: composer run-script test
+    - name: Run test suite
+       run: composer run-script test
+       
 - name: PHP Composer
   # You may pin to the exact commit or the version.
   # uses: baschny/php-composer-action@93b5aef92179c5ebba8824db8d34748301c6a70e
