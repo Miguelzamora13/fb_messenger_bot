@@ -24,8 +24,7 @@ jobs:
 
     - name: Build
       run: |
-        npm install
-          grunt
+        npm install grunt
 - name: Setup Python
   uses: actions/setup-python@v4.7.1
   with:
