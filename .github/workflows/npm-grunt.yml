@@ -27,8 +27,8 @@ jobs:
         npm install
           grunt
           
-            - name: Setup Python
-  uses: actions/setup-python@v4.7.1
+ - name: Setup Python
+     uses: actions/setup-python@v4.7.1
   with:
     # Version range or exact version of Python or PyPy to use, using SemVer's version range syntax. Reads from .python-version if unset.
     python-version: # optional
