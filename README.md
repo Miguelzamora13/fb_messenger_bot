@@ -176,4 +176,3 @@ someone from the community polish the code and contribute it to [drupal.org](dru
 
 <div class="fb-like" data-href="https://miguelzamora13.github.io/fb_messenger_bot/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
 
-
