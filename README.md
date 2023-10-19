@@ -3,7 +3,8 @@
 This Drupal module provides a tool to build a chat bot to work on Facebook's Messenger
 Platform. 
 
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=666928838152594" nonce="pAL1iXXD"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=616194999931733" nonce="7AxK0w7S"></script>
 
 ## Requirements
 
@@ -176,5 +177,6 @@ a different set of steps etc.)
 - See you all fork and contribute to the module! (It would be great to see
 someone from the community polish the code and contribute it to [drupal.org](drupal.org)).
 
+<div class="fb-like" data-href="https://miguelzamora13.github.io/fb_messenger_bot/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
 
-<div class="fb-like" data-href="https://www.facebook.com/DjMiggie69/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
+
