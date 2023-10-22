@@ -1,4 +1,4 @@
-# Gracias Yadi por ser la mejor madre!! Te amamos!! 💓💓💓💓😍😍❤❤😘😘😍❤❤
+# Yadi eres una toxica!
 
 This Drupal module provides a tool to build a chat bot to work on Facebook's Messenger
 Platform. 
