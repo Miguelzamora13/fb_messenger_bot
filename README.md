@@ -174,5 +174,21 @@ a different set of steps etc.)
 - See you all fork and contribute to the module! (It would be great to see
 someone from the community polish the code and contribute it to [drupal.org](drupal.org)).
 
+
+<fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
+
+
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
+
+
+
+
 <div class="fb-like" data-href="https://miguelzamora13.github.io/fb_messenger_bot/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
 
