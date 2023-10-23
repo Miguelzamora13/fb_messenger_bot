@@ -19,6 +19,7 @@
     open-pull-requests-limit: 0
 
   # Configuration for npm
+  version: 7
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
@@ -87,6 +88,11 @@
 
 # Configuration for py
   - package-ecosystem: "py"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+# Configuration for buildx
+  - package-ecosystem: "buildx"
     directory: "/"
     schedule:
       interval: "weekly"
