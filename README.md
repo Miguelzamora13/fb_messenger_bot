@@ -233,3 +233,10 @@ heartLayout.addHeart(color,heartResId,heartBorderResId);
     See the License for the specific language governing permissions and
     limitations under the License.
 
+              
+              
+              
+          - name: Deploy GitHub Pages site
+                uses: actions/deploy-pages@v1.2.9
+            
+
