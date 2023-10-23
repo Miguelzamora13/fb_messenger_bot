@@ -3,7 +3,7 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 # Configuration for Gradle
-    version: 2
+    version: 
     updates:
   - package-ecosystem: "gradle" 
     directory: /
@@ -68,7 +68,7 @@
       interval: "weekly"
 
 # Configuration for ruby
-   version: 1, v1 
+   version: 1 
   - package-ecosystem: "ruby"
     directory: "/"
     schedule:
