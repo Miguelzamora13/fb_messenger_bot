@@ -206,44 +206,7 @@ function checkLoginState() {
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=666928838152594" nonce="OmCc1AJ3"></script>
 <div class="fb-login-button" data-width="" data-size="" data-button-type="" data-layout="" data-auto-logout-link="false" data-use-continue-as="false"></div>
 
-# HeartLayout
-periscope like heartlayout
 
-![heartlayout.gif](assets/heartlayout.gif)
-
-## Getting started
-
-In your `build.gradle`:
-
-```gradle
- dependencies {
-   compile 'tyrant:heartlayout:1.0.1'
- }
-```
-
-```java
-HeartLayout heartLayout = ...;
-heartLayout.addHeart(color);
-heartLayout.addHeart(color,heartResId,heartBorderResId);
-```
-
-## License
-
-    Copyright 2015 tyrantgit
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-
-    
 <!DOCTYPE html>
 <html>
 <head>
