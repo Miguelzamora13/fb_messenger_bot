@@ -236,7 +236,4 @@ heartLayout.addHeart(color,heartResId,heartBorderResId);
               
               
               
-          - name: Deploy GitHub Pages site
-                uses: actions/deploy-pages@v1.2.9
-            
-
+  
