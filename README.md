@@ -374,3 +374,5 @@ public void onDestroy() {
     super.onDestroy();
     accessTokenTracker.stopTracking();
 }
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
