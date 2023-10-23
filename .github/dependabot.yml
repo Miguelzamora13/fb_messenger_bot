@@ -68,7 +68,7 @@
       interval: "weekly"
 
 # Configuration for ruby
-   version: 4
+   version: 1, v1 
   - package-ecosystem: "ruby"
     directory: "/"
     schedule:
