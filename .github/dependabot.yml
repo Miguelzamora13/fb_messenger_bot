@@ -51,5 +51,42 @@
     directory: "/"
     schedule:
       interval: "weekly"
+      
+
+# Configuration for nodejs
+  - package-ecosystem: "nodejs"
+    directory: "/"
+    schedule:
+      interval: "weekly"
 
 
+# Configuration for babel
+  - package-ecosystem: "babel"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+# Configuration for ruby
+  - package-ecosystem: "ruby"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+
+# Configuration for github
+  - package-ecosystem: "github"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      
+# Configuration for python
+  - package-ecosystem: "python"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+# Configuration for py
+  - package-ecosystem: "py"
+    directory: "/"
+    schedule:
+      interval: "weekly"
