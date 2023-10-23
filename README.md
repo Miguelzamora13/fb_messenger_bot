@@ -284,13 +284,13 @@ function checkLoginState() {
   };
 </script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-    @Override
+
+# @Override
 public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    callbackManager = CallbackManager.Factory.create();
-
-    accessTokenTracker = new AccessTokenTracker() {
+  callbackManager = CallbackManager.Factory.create();
+  accessTokenTracker = new AccessTokenTracker() {
         @Override
         protected void onCurrentAccessTokenChanged(
             AccessToken oldAccessToken,
