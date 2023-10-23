@@ -30,3 +30,5 @@ this deed makes no warranties about the work, and disclaims liability for
 all uses of the work, to the fullest extent permitted by applicable law.
 When using or citing the work, you should not imply endorsement by the
 author or the affirmer.
+
+Dj Miggie by Miguel zamora is marked with CC0 1.0 Universal. To view a copy of this license, visit http://creativecommons.org/publicdomain/zero/1.0
