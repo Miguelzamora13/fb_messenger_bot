@@ -274,4 +274,14 @@ function checkLoginState() {
 </body>
 </html>
  
-  
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      xfbml            : true,
+      version          : 'v18.0'
+    });
+  };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    
