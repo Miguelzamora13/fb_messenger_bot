@@ -2,9 +2,9 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
-version: 2
-updates:
+# Configuration for Gradle
+    version: 2
+    updates:
   - package-ecosystem: "gradle" 
     directory: /
     schedule:
@@ -34,3 +34,22 @@ updates:
       # For all packages, ignore all patch updates
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+  # Configuration for drupal
+  - package-ecosystem: "drupal"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+# Configuration for PHP
+  - package-ecosystem: "php"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+# Configuration for npx
+  - package-ecosystem: "npx"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+
