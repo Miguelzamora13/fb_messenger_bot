@@ -50,11 +50,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         
-  # Deployment job
-    name: github-pages
-    url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    steps:
-    name: Deploy GitHub Pages site
-    uses: actions/deploy-pages@v1.2.9
+
             
