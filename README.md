@@ -202,6 +202,10 @@ function checkLoginState() {
 [![Android Gems](http://www.android-gems.com/badge/tyrantgit/HeartLayout.svg?branch=master)](http://www.android-gems.com/lib/tyrantgit/HeartLayout)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-HeartLayout-brightgreen.svg?style=flat)](http://android-arsenal.com/details/3/2558)
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=666928838152594" nonce="OmCc1AJ3"></script>
+<div class="fb-login-button" data-width="" data-size="" data-button-type="" data-layout="" data-auto-logout-link="false" data-use-continue-as="false"></div>
+
 # HeartLayout
 periscope like heartlayout
 
