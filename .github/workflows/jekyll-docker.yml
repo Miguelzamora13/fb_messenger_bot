@@ -14,7 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2.8
     - name: Build the site in the jekyll/builder container
-      run:  docker run 
+      run: 
+        docker run 
 - name: Test
 
 on: [push, pull_request]
