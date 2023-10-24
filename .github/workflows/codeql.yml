@@ -1,4 +1,4 @@
-# For most projects, this workflow file will not need changing; you simply need
+9# For most projects, this workflow file will not need changing; you simply need
 # to commit it to your repository.
 #
 # You may wish to alter this file to override the set of languages analyzed,
@@ -37,7 +37,6 @@ jobs:
 
     strategy:
       fail-fast: false
-      matrix:
         language: [ 'javascript-typescript' 'ruby' ]
         # CodeQL supports [ 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift' ]
         # Use only 'java-kotlin' to analyze code written in Java, Kotlin or both
