@@ -25,7 +25,7 @@ jobs:
         NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         npm run deploy
-name: Test
+- name: Test
 
 on: [push, pull_request]
 
