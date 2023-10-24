@@ -23,7 +23,7 @@ jobs:
       permissions:
        contents: read
 
-        jobs:
+jobs:
         test:
         strategy:
          fail-fast: false
