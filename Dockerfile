@@ -29,3 +29,19 @@ RUN bash --version
 
 EXPOSE 4000
 CMD bundle install && bundle exec jekyll serve -d /_site --watch --force_polling -H 0.0.0.0 -P 4000
+
+
+FROM node:12-alpine
+
+LABEL "com.github.actions.name"="Publish to npm"
+LABEL "com.github.actions.description"="Automatically publish new versions to npm"
+LABEL "com.github.actions.icon"="package"
+LABEL "com.github.actions.color"="blue"
+
+RUN apk add --no-cache git openssl
+
+COPY . /tmp/src/
+
+RUN yarn global add --production true "file:/tmp/src" && rm -rf /tmp/src
+
+ENTRYPOINT [ "npm-publish-action" ]
