@@ -22,14 +22,6 @@ jobs:
 
       permissions:
        contents: read
-
-jobs:
-        test:
-        strategy:
-         fail-fast: false
-               os: [ubuntu-latest, macos-latest]
-                 runs-on: ${{ matrix.os }}
-                   steps: 
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
