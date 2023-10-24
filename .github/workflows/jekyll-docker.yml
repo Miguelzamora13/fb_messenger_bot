@@ -20,8 +20,6 @@ jobs:
 
       on: [push, pull_request]
 
-      permissions:
-       contents: read
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
