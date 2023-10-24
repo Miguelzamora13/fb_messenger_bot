@@ -1,6 +1,6 @@
 # Yadi te AMAMOS 😍💓❤💓❤💓😍
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0&appId=666928838152594" nonce="dklYjANn"></script>
+# <div id="fb-root"></div>
+# <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0&appId=666928838152594" nonce="dklYjANn"></script>
 
 This Drupal module provides a tool to build a chat bot to work on Facebook's Messenger
 Platform. 
