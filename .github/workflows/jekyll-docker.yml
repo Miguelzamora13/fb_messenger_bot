@@ -23,6 +23,8 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
+        run: 
+             on
     - name: Install bats
       run: git clone --depth 1 https://github.com/sstephenson/bats.git
     - name: Run tests
