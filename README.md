@@ -176,5 +176,3 @@ certain steps and then transition a user to a gather contact info workflow with
 a different set of steps etc.)
 - See you all fork and contribute to the module! (It would be great to see
 someone from the community polish the code and contribute it to [drupal.org](drupal.org)).
-
-
