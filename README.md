@@ -1,5 +1,7 @@
 # Yadi te AMAMOS 😍💓❤💓❤💓😍
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/jekyll-gh-pages.yml)
+[![Deploy static content to Pages](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/static.yml/badge.svg)](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/static.yml)
+
 
 This Drupal module provides a tool to build a chat bot to work on Facebook's Messenger
 Platform. 
