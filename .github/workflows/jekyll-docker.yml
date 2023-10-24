@@ -18,19 +18,19 @@ jobs:
           docker run 
     - name: Test
 
-on: [push, pull_request]
+      on: [push, pull_request]
 
-permissions:
-  contents: read
+      permissions:
+       contents: read
 
-jobs:
-  test:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-latest, macos-latest]
-    runs-on: ${{ matrix.os }}
-    steps:
+        jobs:
+        test:
+        strategy:
+         fail-fast: false
+            matrix:
+              os: [ubuntu-latest, macos-latest]
+               runs-on: ${{ matrix.os }}
+               steps:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
