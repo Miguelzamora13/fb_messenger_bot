@@ -1,4 +1,27 @@
-o# Yadi te AMAMOS 😍💓❤💓❤💓😍
+# Yadi te AMAMOS 😍💓❤💓❤💓😍
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{your-app-id}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{api-version}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>Copy Code
+
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/jekyll-gh-pages.yml)
 [![Deploy static content to Pages](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/static.yml/badge.svg)](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/static.yml)
 
