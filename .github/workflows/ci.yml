@@ -21,7 +21,7 @@
     "actions",
     "node",
     "setup"
-  ],
+  },
   "author": "GitHub",
   "license": "MIT",
   "dependencies": {
