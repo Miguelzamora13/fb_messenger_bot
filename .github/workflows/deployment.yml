@@ -271,7 +271,7 @@ jobs:
           cp dist/*.rpm site/packages/rpm/
           ./script/createrepo.sh
           cp -r dist/repodata site/packages/rpm/
-          pushd site/packages/rpm
+        nameshd site/packages/rpm
           [ "$GPG_SIGN" = "false" ] || gpg --yes --detach-sign --armor repodata/repomd.xml
           popd
       - name: Run reprepro
@@ -291,58 +291,4 @@ jobs:
           done
           cp -a dists/ pool/ upload/
           mkdir -p site/packages
-          cp -a upload/* site/packages/
-      - name: Create the release
-        env:
-          # In non-production environments, the assets will not have been signed
-          DO_PUBLISH: ${{ inputs.environment == 'production' }}
-          TAG_NAME: ${{ inputs.tag_name }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          shopt -s failglob
-          pushd dist
-          shasum -a 256 gh_* > checksums.txt
-          mv checksums.txt gh_${TAG_NAME#v}_checksums.txt
-          popd
-          release_args=(
-            "$TAG_NAME"
-            --title "GitHub CLI ${TAG_NAME#v}"
-            --target "$GITHUB_SHA"
-            --generate-notes
-          )
-          if [[ $TAG_NAME == *-* ]]; then
-            release_args+=( --prerelease )
-          else
-            release_args+=( --discussion-category "General" )
-          fi
-          guard="echo"
-          [ "$DO_PUBLISH" = "false" ] || guard=""
-          script/label-assets dist/gh_* | xargs $guard gh release create "${release_args[@]}" --
-      - name: Publish site
-        env:
-          DO_PUBLISH: ${{ inputs.environment == 'production' && !contains(inputs.tag_name, '-') }}
-          TAG_NAME: ${{ inputs.tag_name }}
-          GIT_COMMITTER_NAME: cli automation
-          GIT_AUTHOR_NAME: cli automation
-          GIT_COMMITTER_EMAIL: noreply@github.com
-          GIT_AUTHOR_EMAIL: noreply@github.com
-        working-directory: ./site
-        run: |
-          git add packages
-          git commit -m "Add rpm and deb packages for $TAG_NAME"
-          if [ "$DO_PUBLISH" = "true" ]; then
-            git push
-          else
-            git log --oneline @{upstream}..
-            git diff --name-status @{upstream}..
-          fi
-      - name: Bump homebrew-core formula
-        uses: mislav/bump-homebrew-formula-action@v3
-        if: inputs.environment == 'production' && !contains(inputs.tag_name, '-')
-        with:
-          formula-name: gh
-          formula-path: Formula/g/gh.rb
-          tag-name: ${{ inputs.tag_name }}
-          push-to: williammartin/homebrew-core
-        env:
-          COMMITTER_TOKEN: ${{ secrets.HOMEBREW_PR_PAT }}
+          cp -a upload/* site/packages/ 
