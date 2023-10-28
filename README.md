@@ -1,3 +1,4 @@
+# Markdown heading
 testing doc
 
 <p align="center"><img src="[https://www.facebook.com/DjMiggie69]" width="50%"></p>
@@ -8,7 +9,7 @@ testing doc
 <a href="https://translate.cachethq.io/project/cachet"><img src="https://d322cqt584bo4o.cloudfront.net/cachet/localized.svg" alt="Localisation"></a>
 <a href="https://github.com/CachetHQ/Cachet/releases"><img src="https://img.shields.io/github/release/cachethq/cachet.svg?style=flat-square" alt="Latest Stable Version"></a>
 </p>
-
+# Markdown heading
 
 - 👋 Hi, I’m @MiguelFlores
 - 👀 I’m interested in ...
@@ -49,7 +50,7 @@ You can click the Preview link to take a look at your changes.
      js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
-</script>Copy Code
+</script>Copy Code # Markdown heading
 
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/jekyll-gh-pages.yml)
 [![Deploy static content to Pages](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/static.yml/badge.svg)](https://github.com/Miguelzamora13/fb_messenger_bot/actions/workflows/static.yml)
@@ -59,7 +60,7 @@ You can click the Preview link to take a look at your changes.
   function onTelegramAuth(user) {
     alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
   }
-</script>
+</script> # Markdown heading
 
 This Drupal module provides a tool to build a chat bot to work on Facebook's Messenger
 Platform. 
