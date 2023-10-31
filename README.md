@@ -246,4 +246,4 @@ a different set of steps etc.)
 - See you all fork and contribute to the module! (It would be great to see
 someone from the community polish the code and contribute it to [drupal.org](drupal.org)).
 
-v2.3.4
+v.1.1.1
