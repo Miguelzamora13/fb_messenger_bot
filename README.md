@@ -247,3 +247,7 @@ a different set of steps etc.)
 someone from the community polish the code and contribute it to [drupal.org](drupal.org)).
 
 v.1.1.1
+
+https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg
+
+file:///storage/emulated/0/Download/pngwing.com.png
