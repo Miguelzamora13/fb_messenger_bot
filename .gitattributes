@@ -12,3 +12,4 @@ vendor/** -diff linguist-generated=true
 *.whl
 *.exe
 *.gif
+.licenses/** -diff linguist-generated=true
