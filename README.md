@@ -5,7 +5,7 @@
 - Related Pro Tips: https://ochronus.com/git-tips-from-the-trenches/
 - Interactive Beginners Tutorial: http://try.github.io/
 - Git Cheatsheet by GitHub: https://services.github.com/on-demand/downloads/github-git-cheat-sheet/
-
+ 
 ## Reminder
 Press `minus + shift + s` and `return` to chop/fold long lines!
 
