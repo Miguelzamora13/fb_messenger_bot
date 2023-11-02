@@ -20,7 +20,7 @@ jobs:
     - name: publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-      run: npm run deploy
+      run: npm run deploy, npm run build --if-present, npm test
 - name: Test
 
 on: [push, pull_request]
