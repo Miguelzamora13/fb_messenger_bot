@@ -4,8 +4,8 @@ go 1.21
 
 require (
 	github.com/cenkalti/backoff/v4 v4.2.1
-	github.com/charmbracelet/glamour v0.6.0
-	github.com/cli/go-gh/v2 v2.4.1-0.20231024095351-47a83eeb1778
+	github.com/charmbracelet/glamour v0.7.0
+	github.com/cli/go-gh/v2 v2.11.1
 	github.com/cli/safeexec v1.0.1
 	github.com/opentracing/opentracing-go v1.1.0
 	github.com/shurcooL/githubv4 v0.0.0-20230704064427-599ae7bbf278
@@ -17,10 +17,12 @@ require (
 )
 
 require (
-	github.com/alecthomas/chroma v0.10.0 // indirect
+	github.com/alecthomas/chroma/v2 v2.8.0 // indirect
 	github.com/alessio/shellescape v1.4.1 // indirect
-	github.com/aymanbagabas/go-osc52 v1.0.3 // indirect
+	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
+	github.com/charmbracelet/lipgloss v0.10.1-0.20240413172830-d0be07ea6b9c // indirect
+	github.com/charmbracelet/x/exp/term v0.0.0-20240425164147-ba2a9512b05f // indirect
 	github.com/cli/browser v1.3.0 // indirect
 	github.com/cli/shurcooL-graphql v0.0.4 // indirect
 	github.com/danieljoos/wincred v1.2.0 // indirect
@@ -34,20 +36,20 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mattn/go-runewidth v0.0.14 // indirect
+	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.26 // indirect
 	github.com/muesli/reflow v0.3.0 // indirect
-	github.com/muesli/termenv v0.13.0 // indirect
+	github.com/muesli/termenv v0.15.2 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
-	github.com/rivo/uniseg v0.4.4 // indirect
+	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/shurcooL/graphql v0.0.0-20230722043721-ed46e5a46466 // indirect
 	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/thlib/go-timezone-local v0.0.0-20210907160436-ef149e42d28e // indirect
-	github.com/yuin/goldmark v1.5.2 // indirect
-	github.com/yuin/goldmark-emoji v1.0.1 // indirect
+	github.com/yuin/goldmark v1.5.4 // indirect
+	github.com/yuin/goldmark-emoji v1.0.2 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/oauth2 v0.7.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/sys v0.19.0 // indirect
 	golang.org/x/term v0.13.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
